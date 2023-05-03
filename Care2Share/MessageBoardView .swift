@@ -8,13 +8,30 @@
 import SwiftUI
 
 struct MessageBoardView_: View {
+   @State private var defaulted = "Message"
+    
+    let boards = ["Message", "Affirmations"]
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        //create navigation links for access to separate pages
+        NavigationView {
+            Form {
+                Section {
+                    Picker("Board", selection: $defaulted)
+                    { ForEach(boards, id: \.self)
+                        {
+                            Text($0)
+                        }
+                    }.pickerStyle(.segmented)
+                }
+                .navigationTitle("Message Boards")
+            }
+        }
     }
 }
+            struct MessageBoardView__Previews: PreviewProvider {
+                static var previews: some View {
+                    MessageBoardView_()
+                }
+            }
 
-struct MessageBoardView__Previews: PreviewProvider {
-    static var previews: some View {
-        MessageBoardView_()
-    }
-}

@@ -15,13 +15,13 @@ struct TabViews: View {
                 .tabItem {
                     Label("Journal", systemImage: "rectangle.and.pencil.and.ellipsis")
             }
+            CreateView()
+             .tabItem {
+                 Label("Create", systemImage: "plus")
+             }
             MessageBoardView_()
                 .tabItem {
                     Label("Message Board", systemImage: "message")
-                }
-               
-                .tabItem {
-                    Label("Create", systemImage: "plus")
                 }
             
         }
