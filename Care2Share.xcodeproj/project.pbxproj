@@ -15,6 +15,7 @@
 		7264C82D2A01A36E00FA90E0 /* JournalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7264C82C2A01A36E00FA90E0 /* JournalView.swift */; };
 		7264C82F2A01A50900FA90E0 /* MessageBoardView .swift in Sources */ = {isa = PBXBuildFile; fileRef = 7264C82E2A01A50900FA90E0 /* MessageBoardView .swift */; };
 		7264C8312A01A83900FA90E0 /* CreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7264C8302A01A83900FA90E0 /* CreateView.swift */; };
+		7264C8332A02DAA400FA90E0 /* AffirmationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7264C8322A02DAA400FA90E0 /* AffirmationsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		7264C82C2A01A36E00FA90E0 /* JournalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalView.swift; sourceTree = "<group>"; };
 		7264C82E2A01A50900FA90E0 /* MessageBoardView .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MessageBoardView .swift"; sourceTree = "<group>"; };
 		7264C8302A01A83900FA90E0 /* CreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateView.swift; sourceTree = "<group>"; };
+		7264C8322A02DAA400FA90E0 /* AffirmationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmationsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				7264C8302A01A83900FA90E0 /* CreateView.swift */,
 				7264C82C2A01A36E00FA90E0 /* JournalView.swift */,
 				7264C82E2A01A50900FA90E0 /* MessageBoardView .swift */,
+				7264C8322A02DAA400FA90E0 /* AffirmationsView.swift */,
 				7264C8202A019F0100FA90E0 /* Assets.xcassets */,
 				7264C8222A019F0100FA90E0 /* Preview Content */,
 			);
@@ -154,6 +157,7 @@
 				7264C82D2A01A36E00FA90E0 /* JournalView.swift in Sources */,
 				7264C82F2A01A50900FA90E0 /* MessageBoardView .swift in Sources */,
 				7264C8312A01A83900FA90E0 /* CreateView.swift in Sources */,
+				7264C8332A02DAA400FA90E0 /* AffirmationsView.swift in Sources */,
 				7264C81D2A019F0000FA90E0 /* Care2ShareApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
